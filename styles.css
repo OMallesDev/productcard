@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    --green500: hsl(158, 36%, 37%);
+    --green700: hsl(158, 42%, 18%);
+    --black: hsl(212, 21%, 14%);
+    --grey: hsl(228, 12%, 48%);
+    --cream: hsl(30, 38%, 92%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: var(--cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+main {
+    padding: 2rem;
+    font-family: "Fraunces"
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    max-width: 40rem;
+    border-radius: 1rem
+}
+.desktopimg {
+    display: block;
+    max-width: 19rem;
+    height: 100%;
+    border-radius: 1rem 0 0 1rem;
+}
+.mobileimg {
+    display: none;
+}
+
+.perfume {
+    font-family: "Montserrat";
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    color: var(--grey);
+}
+
+h1 {
+    color: var(--black);
+
+}
+
+.description {
+    margin-bottom: 2rem;
+    text-align: left;
+    font-family: "Montserrat";
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: var(--grey);
+
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    color: var(--green500);
+}
+.sale {
+    font-size: 2rem;
+    margin-right: 1rem;
+    font-weight: 700;
+}
+.list {
+    text-decoration: line-through;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem auto 0;
+    width: 100%;
+    background-color: var(--green500);
+    color: var(--white);
+    font-weight: 700;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+
+}
+
+.cart {
+    margin-right: 0.6rem;
+}
+
+button:hover {
+    background-color: var(--green700);
+    cursor: pointer;
+}
+
+/* CSS For Mobile Devices */
+@media screen and (width <= 33rem) {
+    body {
+        overflow-x: hidden;
+    }
+    .desktopimg {
+        display: none;
+    }
+    .mobileimg {
+        display: block;
+        width: 100%;
+        border-radius: 1rem 1rem 0 0;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-items: center;
+        position: absolute;
+        max-width: 24rem;
+        margin: 0.5rem;
+    }
+    .perfume {
+        font-size: 0.9rem;
+    }
+}
