@@ -19,7 +19,7 @@ body {
 }
 main {
     padding: 2rem;
-    font-family: "Fraunces";
+    font-family: "Fraunces", sans-serif;
     width: 100%;
     height: 100%;
 }
@@ -41,7 +41,7 @@ main {
 }
 
 .perfume {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     letter-spacing: 0.2rem;
     color: var(--grey);
@@ -55,7 +55,7 @@ h1 {
 .description {
     margin-bottom: 2rem;
     text-align: left;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     line-height: 1.5rem;
     color: var(--grey);
