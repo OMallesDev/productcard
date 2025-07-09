@@ -11,12 +11,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,7 +25,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+
+![Screenshot_9-7-2025_133415_omallesdev github io](https://github.com/user-attachments/assets/65088106-e828-4729-ba5a-0a3c22f5de54)
+
+![Screenshot_9-7-2025_13366_omallesdev github io](https://github.com/user-attachments/assets/86a4aaf0-f68a-4349-8352-349f0458aae4)
 
 
 ### Links
