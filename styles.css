@@ -18,8 +18,9 @@ body {
     overflow-x: hidden;
 }
 main {
-    padding: 2rem;
-    font-family: "Fraunces"
+    font-family: "Fraunces";
+    width: 100%;
+    height: 100%;
 }
 .card {
     display: flex;
